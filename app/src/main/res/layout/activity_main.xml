@@ -14,7 +14,11 @@
         android:layout_width="100dp"
         android:layout_height="100dp" />-->
 
-    <com.example.will.canvas.canvas_go.SloopCanvasView
+    <!--<com.example.will.canvas.canvas_go.SloopCanvasView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />-->
+
+    <com.example.will.canvas.picture.PictureCanvas
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 
