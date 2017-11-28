@@ -22,7 +22,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent" />-->
 
-    <com.example.will.canvas.checkview.CheckView
+    <!--<com.example.will.canvas.checkview.CheckView
         android:id="@+id/checkview"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
@@ -40,6 +40,10 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
-        android:text="UnCheck" />
+        android:text="UnCheck" />-->
+
+    <com.example.will.canvas.radarrview.SpiderView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
 
 </RelativeLayout>

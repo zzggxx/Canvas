@@ -25,9 +25,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         setContentView(R.layout.activity_main);
 //        ButterKnife.bind(this);
 
-        findViewById(R.id.check).setOnClickListener(this);
-        findViewById(R.id.uncheck).setOnClickListener(this);
-        checkView = (CheckView) findViewById(R.id.checkview);
+//        findViewById(R.id.check).setOnClickListener(this);
+//        findViewById(R.id.uncheck).setOnClickListener(this);
+//        checkView = (CheckView) findViewById(R.id.checkview);
 
 //
 //        ArrayList<PieData> pieDatas = new ArrayList<>();
@@ -43,12 +43,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public void onClick(View v) {
         int id = v.getId();
         switch (id) {
-            case R.id.check:
-                checkView.check();
-                break;
-            case R.id.uncheck:
-                checkView.unCheck();
-                break;
+//            case R.id.check:
+//                checkView.check();
+//                break;
+//            case R.id.uncheck:
+//                checkView.unCheck();
+//                break;
             default:
                 break;
         }
