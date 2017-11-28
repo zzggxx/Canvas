@@ -42,7 +42,11 @@
         android:layout_alignParentRight="true"
         android:text="UnCheck" />-->
 
-    <com.example.will.canvas.radarrview.SpiderView
+    <!--<com.example.will.canvas.radarrview.SpiderView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />-->
+
+    <com.example.will.canvas.bezier.BezierView
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 
